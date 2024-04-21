@@ -1,0 +1,66 @@
+.nav {
+    /*styles for navigation bar*/
+    font-family: Impact, Charcoal, sans-serif; /*font fmaily*/
+    letter-spacing: 3.4px; /*lettering spacing*/
+    word-spacing: 4.4px; /*Word spacing*/
+    color: #600000; /*text color*/
+    font-weight: normal; /*font weight*/
+    font-style: oblique; /*font style*/
+    font-variant: normal; /*font variant*/
+    
+    }
+.h1 {
+    /*Styles for main heading*/
+        font-family: Impact, Charcoal, sans-serif; /*font family*/
+        font-size: 60px; /*font-size*/
+        letter-spacing: 3.4px; /*letter spacing*/
+        word-spacing: 5px; /*word spacing*/
+        color: #e30909; /*text color*/
+        font-weight: normal; /*font weight*/
+        font-style: oblique; /*font style*/
+        text-align: center; /*text alignment centered*/
+        margin-top: 0vh; /*margin from the top set to 0*/
+        text-shadow: 3px 3px 1px #580303; /*text shadow for main head*/
+        background-color: #e65454; /*background color*/
+        width: 50%; /* Set the width of the container */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 20px; /*padding for box*/
+    }
+        
+        
+
+
+.txtf {
+    /*styles for text within cards*/
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /*font family*/
+font-size: 19px; /*font size*/
+letter-spacing: 2px; /*letter spacing*/
+word-spacing: 2px; /*word spacing*/
+color: #000000; /*text color*/
+font-weight: normal; /*font weight*/
+}
+
+.table {
+/*styles for tables*/
+    border-style: solid; /*border style set to solid*/
+}
+.h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    letter-spacing: 3.4px;
+    word-spacing: 5px;
+    color: #e30909;
+    font-weight: normal;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 0vh;
+    text-shadow: 3px 3px 1px #580303;
+    background-color: #e65454;
+    width: 50%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; }
+    
+    .body{ 
+        /*body styles*/
+        background-color: #967ea1;
+         }

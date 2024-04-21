@@ -1,17 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Airplane!</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
-   
+    <link rel="stylesheet" href="index.css"/>
+<!--Navbar Section-->
+<div class="nav"> 
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <!--Navbar toggle button-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <!--Navbar toggle logo-->
+        <a class="navbar-brand">KillNoise</a>
+        <!--Logo image-->
+        <div class="logo">
+            <img src="images/yeetthebaby.jpg"img-fluid"  alt="tossing a baby animated picture" width="60px">
+        </div>
+        <!--Navbar links-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Welcome aboard!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" href="about.html">Get Solutions!</a>
+          </li>
+        </ul>
+        <!--Search form-->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    </nav>
+ </div>
+<!--Heading Section-->
+ <div class="h1">
+    <h1>WELCOME TO A BAD TIME</h1>
+ </div>
 </head>
-<body>
-    <button type="button" class="btn btn-secondary">Secondary</button>
 
 
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<body class="body">
+    <!--Carousel section-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <!--Carousel Indictators-->
+        <div class="carousel-indicators">
+            <!--Buttons for each slide-->
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <!--Carousel indicators-->
+                <div class="carousel-indicators">
+                </div>
+                 <!--Carousel Inner section-->
+                <div class="carousel-inner">
+                    <!--First Slide-->
+                    <div class="carousel-item active">
+                        <!--Image for the first slide-->
+                        <img src="./images/cryingplane.webp" class="d-block w-100" alt="crying baby in front of plane">
+                        <div class="carousel-caption">
+                            <!--Carousel caption and text for the first slide-->
+                            <div id="carousel-text">
+                                <h5>Going on a plane with this kid?</h5>
+                                <p>oh my!</p> 
+                            </div>
+                        </div>
+                    </div>
+            <!--Section Slide-->
+                    <div class="carousel-item">
+                        <!--image for the second slide-->
+                        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-10/19/6/asset/7f0d812f44f4/anigif_sub-buzz-1505-1634625850-12_preview.gif" class="d-block w-100" alt="man crying">
+                        <div class="carousel-caption">
+                            <!--Carousel Caption/textfor the second slide-->
+                            <div id="carousel-text">
+                                <h5>Do you want to feel like this?</h5>
+                                <p>FOR AN ENTIRE 10 HOUR FLIGHT?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Third Slide-->
+                    <div class="carousel-item">
+                        <!--Image for the third slide-->
+                        <img src="images/happymanflying.jpg" class="d-block w-100" alt="man flying happily">
+                        <div class="carousel-caption">
+                            <!--Carousel caption/text for third slide-->
+                            <div id="carousel-text"> 
+                                <h5>Wouldn't you like to be this guy?</h5>
+                                <p>Here is a guide to getting you to fligh high, my friend.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+        <!--Carousel Control buttons-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+
+
+    
+   
+   
+   
+   
+   
+   
+   
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
+   

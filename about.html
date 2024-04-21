@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airplane!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="about.css"/>
+<!--Navigation Bar-->
+<div class="nav"> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <!--navbar brand and logo-->
+        <a class="navbar-brand" href="#">KillNoise</a>
+            <img src="images/yeetthebaby.jpg" class="img-fluid"  alt="tossing a baby animated picture" width="60px">
+            <!--Navbar links-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link hover" href="index.html"> Welcome Aboard!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">Get Solutions!</a>
+          </li>
+        </ul>
+        <!--Search Form-->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    </nav>
+ </div>
+<!--Main Heading-->
+ <div class="h1">
+    <h1>Need Help?</h1>  
+ </div>
+</head>
+  
+ <!--Cards section-->
+    <body>
+        <div class="container">
+            <div class="row">
+                <!--card 1-->
+                <!-- Horizontal layout on larger screens -->
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Xsign.jpg" class="img-fluid rounded-start" alt="sign with an X">
+                            </div>
+                            <div class="col-md-8">
+                                <!--Card Body-->
+                                <div class="txtf"> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nobody Wants A Screaming Child On A Plane</h5>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 2 -->
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/nobaby.png" class="img-fluid rounded-start" alt="sign with an X">
+                            </div>
+                            <div class="col-md-8">
+                                <!--Card Body-->
+                                <div class="txtf"> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">We (unfortunately) CANNOT get RID of the CHILD!</h5>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--Secondary Heading-->
+        <div class="h1"> 
+        <h1> We Are Here To Save The Day!</h1>
+       </div> 
+
+        <!--Table Section-->
+        <table class="table table-dark table-striped-columns">
+            <thead>
+              <tr>
+                <th scope="col">Do's</th>
+                <th scope="col">Dont's</th>
+                <th scope="col">Solution</th>
+                <th scope="col">Explanation</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Find Quiet</th>
+                <td>hurt the child</td>
+                <td>Find a way to temporarily lose your hearing!</td>
+                <td>You can't hear the child's screams of anguish!</td>
+              </tr>
+              <tr>
+                <th scope="row">Mind Your Buisness</th>
+                <td>yell at the parents.</td>
+                <td>Think about your life's regrets!</td>
+                <td>You will be too busy crying to care about others!</td>
+              </tr>
+              <tr>
+                <th scope="row">Distract Yourself With Something Positive</th>
+                <td>write out a revenge plan against the newborn.</td>
+                <td>Watch a video of people falling!</td>
+                <td>Your laugh will disturb more people than the baby crying.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!--Form Section-->
+          <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <label for="input" class="visually-hidden"></label>
+                            <input type="text" readonly class="form-control-plaintext" value="PICK YOUR POISON!">
+                        </div>
+                        <div class="col-auto">
+                            <label for="input" class="visually-hidden"></label>
+                            <input type="input" class="form-control" placeholder="favorite solution">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+          
+
+    <!--Boostrap Javascript-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
